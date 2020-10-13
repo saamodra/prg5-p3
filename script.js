@@ -1,12 +1,16 @@
 function CustomButton() {
   return (
     <div className="btn-container">
-      <h1>Custom Button</h1>
-      <RenderButton color="green" description="Success" />
-      <RenderButton color="red" description="Error" />
-      <RenderButton color="orange" description="Warning" />
-      <RenderButton color="blue" description="Primary" />
-      <RenderButton color="grey" description="Default" />
+      <div className="card-header">
+        <h1>Custom Button</h1>
+      </div>
+      <div className="card-body">
+        <RenderButton color="green" description="Success" />
+        <RenderButton color="red" description="Error" />
+        <RenderButton color="orange" description="Warning" />
+        <RenderButton color="blue" description="Primary" />
+        <RenderButton color="grey" description="Default" />
+      </div>
     </div>
   )
 }
